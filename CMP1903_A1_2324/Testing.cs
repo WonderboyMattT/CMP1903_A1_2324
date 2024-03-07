@@ -13,9 +13,6 @@ namespace CMP1903_A1_2324
         {
             Die die = new Die();
 
-            // Test Roll method
-            //Debug.Assert(die.Roll() >= 1 && die.CurrentValue <= 6);
-
             // Test Roll method multiple times
             for (int i = 0; i < 5; i++)
             {
