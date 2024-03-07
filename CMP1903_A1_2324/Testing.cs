@@ -17,7 +17,7 @@ namespace CMP1903_A1_2324
             for (int i = 0; i < 5; i++)
             {
                 int rollResult = die.Roll();
-                Console.WriteLine("Roll " + (i + 1) + ": " + rollResult);
+                //Console.WriteLine("Roll " + (i + 1) + ": " + rollResult);
                 Debug.Assert(rollResult >= 1 && rollResult <= 6, "Result out of range: " + rollResult);
 
             }
