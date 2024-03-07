@@ -12,6 +12,7 @@ namespace CMP1903_A1_2324
         static void Main(string[] args)
         {
             Testing.TestDieClass();
+            //Testing.TestGameClass();
             // Create a Game object
             Game game = new Game();
 

@@ -10,7 +10,7 @@ namespace CMP1903_A1_2324
     public class Game
     {
         private List<Die> _diceRolls = new List<Die>();
-        private int sum;
+        private int _sum;
         
         public Game()
         {
@@ -28,10 +28,10 @@ namespace CMP1903_A1_2324
             foreach (Die die in _diceRolls)
             {
                 int rollValue = die.Roll();
-             //   Console.WriteLine(rollValue);
-                sum += rollValue;
+                Console.WriteLine(rollValue);
+                _sum += rollValue;
             }
-            return sum;
+            return _sum;
         }
 
         // Return all dice
